@@ -2,7 +2,7 @@
 // Project: [~THE PROJECT NAME~]
 // Definitions by: [~YOUR NAME~] <[~A URL FOR YOU~]>
 
-import EditorJS from "@editorjs/editorjs";
+// import EditorJS from "@editorjs/editorjs";
 
 /*~ If this library is callable (e.g. can be invoked as myLib(3)),
  *~ include those call signatures here.
@@ -29,22 +29,22 @@ import EditorJS from "@editorjs/editorjs";
 // }
 
 // TS有用。JS没用。
-interface Window {
-  test: string;
- }
+// interface Window {
+//   test: string;
+//  }
 
 //  declare var ee: EditorJS;
 
  
  // JS可用。 window.gee
- declare global {
-   var gee: EditorJS;
+//  declare global {
+//    var gee: EditorJS;
 
-   // 或者
-   interface Window {
-    gtest: string;
-   }
- }
+//    // 或者
+//    interface Window {
+//     gtest: string;
+//    }
+//  }
 
 // /*~ If your library has properties exposed on a global variable,
 //  *~ place them here.

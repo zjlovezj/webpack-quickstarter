@@ -8,14 +8,17 @@
  */
 
 /** @type {EditorConfig} */
-const ec = {
-  /**
-   * Id of Element that should contain Editor instance
-   */
-  holder: "editorjs",
-  autofocus: false,
-};
+// const ec = {
+//   /**
+//    * Id of Element that should contain Editor instance
+//    */
+//   holder: "editorjs",
+//   autofocus: false,
+// };
 
 // 手动设定type
 /** @type {EditorJS} */
-const editor = new window.EditorJS(ec);
+// const editor = new window.EditorJS(ec);
+
+import "./index.css";
+console.log("it works");
