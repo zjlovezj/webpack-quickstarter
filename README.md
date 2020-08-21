@@ -21,7 +21,6 @@
    ├── src
    │   ├── [global.d.ts]
    │   ├── [index.css]
-   │   ├── index.html
    │   └── index.js
    ├── [webpack.config.js]
    └── yarn.lock
