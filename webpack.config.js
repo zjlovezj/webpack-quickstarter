@@ -2,6 +2,7 @@
 
 /** @type {import('webpack/declarations/WebpackOptions').WebpackOptions} */
 module.exports = {
+  devtool: "source-map",
   module: {
     rules: [
       {

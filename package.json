@@ -1,7 +1,7 @@
 {
   "name": "webpack-quickstarter",
   "version": "1.0.0",
-  "description": "",
+  "description": "with css and image support, webpack.config.js, .d.ts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
