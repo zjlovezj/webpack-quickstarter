@@ -6,14 +6,14 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "start:dev": "webpack-dev-server --mode development --content-base dist/ --open --hot --devtool source-map"
+    "start:dev": "webpack serve --mode development --content-base dist/ --open --hot --devtool source-map"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
-    "webpack": "^4.44.1",
-    "webpack-cli": "^3.3.12",
+    "webpack": "^5.1.3",
+    "webpack-cli": "^4.0.0",
     "webpack-dev-server": "^3.11.0"
   }
 }
